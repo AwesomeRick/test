@@ -1,0 +1,9 @@
+数据处理步骤
+第一步：将数据间的空格换为逗号（英文状态下的逗号）
+第二步：去除数据中的错误数据
+第三步：将每一个动作的数量变为100的倍数将前三步的结果生成test1.txt文件
+第四步：提取出test1.txt文件中数据的最后三列，生成test2.txt
+第五步：将test2.txt文件中每100条数据合并为一行，每条之间用逗号隔开，生成test3.txt
+
+
+动作	Walking  Jogging  Downstars  Upstairs  Standing Sitting
